@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.background {
+	background-color: #FF7F00;
+	height: 350px;
+	font-family: "Railway", "Arial", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+}
+
+.hci {
+	padding-top: 115px;
+	font-size: 70px;
+	font-weight: 900;
+}
+
+.portfolio {
+	font-size: 40px;
+	font-weight: 400;
+}
+
+button {
+	background-color: #FF7F00;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	border: none;
+	padding: 15px 100px;
+	margin: 10px;
+	font-size: 30px;
+}
+
+button:hover {
+	background-color: #F89A3D;
+	border: none;
+}
+
+.buttons {
+	text-align: center;
+	margin-top: 50px;
+}

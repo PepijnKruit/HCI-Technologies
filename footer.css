@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+footer {
+	height: 40px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.footer {
+	color: white;
+	text-align: center;
+	font-family: "Railway", "Arial", sans-serif;
+	margin-top: 20px;
+}
