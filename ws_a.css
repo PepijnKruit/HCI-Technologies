@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+hr {
+	border: 1px solid white;
+	margin-bottom: 25px;
+}
+
+h1, h3, span, p {
+	color: white;
+	font-family: "Railway", "Arial", sans-serif;
+}
+
+h1, span {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h3 {
+	padding-bottom: 10px;
+}
+
+span {
+	font-size: 25px;
+}
+
+p {
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.unreal_engine {
+	padding-top: 40px;
+}
+
+.content {
+	margin-left: 125px;
+	margin-right: 125px;
+}
+
+.opdracht-1 {
+	max-width: 500px;
+	max-height: 500px;
+	border: 2px solid black;
+}
+
+.video {
+	max-width: 500px;
+	max-height: 500px;
+	border: 2px solid black;
+}
+
+.footer-size {
+	padding-bottom: 50px;
+}
