@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HCI Technologies</title>
+		<link rel="stylesheet" type="text/css" href="header.css" defer>
+		<link rel="stylesheet" type="text/css" href="main_2.css" defer>
+		<link rel="stylesheet" type="text/css" href="footer.css" defer>
+		<link rel="stylesheet" type="text/css" href="tinkering_w.css" defer>
+	</head>
+	<body>
+		<header>
+			<a href="index.html">
+				<img src="logo.png" class="logo">
+			</a>
+		    <ul>
+		      	<li><a href="ar_vr.html">AR & VR</a></li>
+		      	<li><a href="w.html">Wearable</a></li>
+		      	<li><a href="ac.html">AC</a></li>
+		      	<li><a href="pi.html">PI</a></li>
+		      	<li><a href="#">WORKSHOPS</a>
+		      		<ul class="menu-stijl">
+		      			<li class="menu-1"><a href="ws_ar_vr.html">AR & VR</a></li>
+		      			<li class="menu-2"><a href="ws_a.html"> ARDUINO</a></li>
+		      			<li class="menu-3"><a href="ws_cv.html">CV<a></li>
+		      		</ul>
+		      	</li>
+		      	<li><a href="guest_lecture.html" class="guest_lecture">GUEST LECTURE</a></li>
+		    </ul>
+		</header>
+		<main class="main">
+			<section class="background">	
+				<h4 class="hci">WEARABLE</h4>
+				<h4 class="portfolio">CHALLENGE</h4>
+			</section>
+			<section class="inhoud-ar-vr">
+				<a href="research_w.html">
+					<button class="button-1">Research</button>
+				</a>
+				<a href="tinkering_w.html">
+					<button class="button-1">Tinkering</button>
+				</a>
+				<a href="design_build_w.html">
+					<button class="button-1">Design & build</button>
+				</a>
+				<a href="reflect_w.html">
+					<button class="button-1">Reflect</button>
+				</a>
+				<hr />
+				<h1>TINKERING</h1>
+					<p>Dit is het tinkering gedeelte van de challenge wearable. Ik heb hier 3 verschillende experimenten gedaan, waarvan 1 een gevolg is van een ander. Voor het eerste experiment heb ik een stoplicht gemaakt en bij het tweede experiment heb ik daar een zoemer bij toegevoegd die afgaat als het stoplicht rood werd. Het derde experiment is geïnspireerd door opdracht 7: LED Matrix. Ik heb een op zichzelf bewegende video gemaakt.</p>
+					<br />
+					<br />
+				<span>Experiment 1</span>
+					<p>Voor het eerste experiment koos ik ervoor om een stoplicht te maken. Tijdens de workshops vond ik het leuk om met LED lichtjes te werken en wilde daarom hiermee ook experimenteren. Ik had drie LED lichtjes, groen, geel, rood, in de volgorde van een stoplicht gezet. 
+					<br />
+					<br />
+					Het stoplicht werkt via licht. Als de ruimte goed belicht is dan staat het groene LED lampje aan, als de ruimte matig belicht is dan gaat het gele LED lampje aan en als de ruimte slecht is belicht (dus heel erg donker) gaat het rode LED lichtje aan.
+					</p>
+					<img src="voorwerpen_1.jpeg" class="tilt_brush">
+					<img src="setup_1.jpeg" class="tilt_brush">
+					<video class="video" controls>
+					<source src="werking_1.mp4" type="video/mp4">
+					De video kan nu niet afgespeeld worden.
+					</video>
+					<br />
+					<h2>code</h2>
+					<img src="tinkering_code_1.jpg" class="tilt_brush_2">
+					<br />
+					<br />
+					<br />
+				<span>Experiment 2</span>
+					<p>Ik vond het twee experiment zo leuk om te doen en met het leren van de piezo speaker vond ik het leuk om die bij mijn stoplicht toe te voegen. In dit tweede experiment wilde ik de speaker af laten gaan op het moment dat het rode LED lichtje aanging. Daarnaast wilde ik het rode LED lichtje laten flikkeren en in de seriële monitor steeds een melding krijgen van de staat van LDR.
+					<br />
+					<br />
+					In het begin had ik hier veel moeite mee, omdat de speaker wel werkte en het groene/ gele lED lichtje, maar het rode LED lichtje ging niet aan. Deze ging pas aan als ik de speaker ontkoppelde. Na enige tijd kwam ik erachter dat ik de GND sensor 1 vakje naar beneden moest zetten en de speaker in het vakje waar de sensor eerst zat te steken.
+					</p>
+					<img src="voorwerpen_2.jpeg" class="tilt_brush">
+					<img src="setup_2.jpeg" class="tilt_brush">
+					<video class="video" controls>
+					<source src="werking_2.mp4" type="video/mp4">
+					De video kan nu niet afgespeeld worden.
+					</video>
+					<video class="video" controls>
+					<source src="tinkering_1.mp4" type="video/mp4">
+					De video kan nu niet afgespeeld worden.
+					</video>
+					<br />
+					<h2>code</h2>
+					<img src="tinkering_code_2.jpg" class="tilt_brush_2">
+					<br />
+					<br />
+					<br />
+				<span>Experiment 3</span>
+					<p>Met experiment wilde ik iets doen met de LED Matrix. Tijdens de workshop kregen we de opdracht om een bewegend plaatje te maken aan de hand van een potentiometer. Ik wilde het een stap verder nemen en proberen een kleine lichtvideo laten afspelen zonder dat dat er menselijke input van te pas zou komen. Hiervoor heb ik de potentiometer weggehaald en zo geprogrammeerd dat een video zou afspelen.
+					</p>
+				<p>Video die laat zien hoe het werkt:</p>
+				<img src="voorwerpen_3.jpeg" class="tilt_brush">
+					<video class="video" controls>
+					<source src="werking_3.mp4" type="video/mp4">
+					De video kan nu niet afgespeeld worden.
+					</video>
+					<br />
+					<h2>code</h2>
+					<img src="tinkering_code_3.jpg" class="tilt_brush_2" id="footer-size">
+			</section>
+		</main>
+		<footer>
+			<p class="footer">PEPIJN KRUIT © 2020</p>
+		</footer>
+	</body>
+</html>
