@@ -58,6 +58,12 @@ p {
 	border: 2px solid black;
 }
 
+.tilt_brush_2 {
+	max-width: 283px;
+	max-height: 283px;
+	border: 2px solid black;
+}
+
 .footer-size {
 	padding-bottom: 50px;
 }
