@@ -29,12 +29,20 @@ h3 {
 }
 
 span {
-	font-size: 25px;
+	font-size: 20px;
 }
 
 p {
 	padding-top: 10px;
 	padding-bottom: 30px;
+}
+
+a {
+	color: #FF7F00;
+}
+
+a:hover {
+	color: #F89A3D;
 }
 
 .unreal_engine {
@@ -52,12 +60,24 @@ p {
 	border: 2px solid black;
 }
 
+.tilt_brush {
+	max-width: 500px;
+	max-height: 500px;
+	border: 2px solid black;
+}
+
+.tilt_brush_2 {
+	max-width: 281px;
+	max-height: 281px;
+	border: 2px solid black;
+}
+
 .video {
 	max-width: 500px;
 	max-height: 500px;
 	border: 2px solid black;
 }
 
-.footer-size {
+#footer-size {
 	padding-bottom: 50px;
 }
